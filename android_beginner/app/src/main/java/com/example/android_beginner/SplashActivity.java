@@ -6,6 +6,8 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.android_beginner.project_seocnd.MainActivity2;
+
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -18,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // this를 Activity.this로 변경
-                Intent intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(SplashActivity.this, MainActivity2.class);
                 startActivity(intent);
                 // 지연 후 실행할 코드
             }

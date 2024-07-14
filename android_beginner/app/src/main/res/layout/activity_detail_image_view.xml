@@ -5,9 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".project_seocnd.DetailImageView">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="스플래시 화면"/>
+        android:text="디테일 화면"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
